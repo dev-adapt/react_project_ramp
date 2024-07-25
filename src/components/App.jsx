@@ -1,15 +1,10 @@
 import React from "react";
-import Header from "./Header";
-import List from "./list";
-import "../componentStyling/App.css";
-const name = "Shruti";
+import Header from "./Header/navbar.jsx";
 
 function App() {
   return (
     <div>
-      <h1>Hello {name}</h1>
       <Header />
-      <List />
     </div>
   );
 }
